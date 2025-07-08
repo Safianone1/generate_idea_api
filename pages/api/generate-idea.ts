@@ -1,5 +1,5 @@
 console.log("✅ API called");﻿
-import type { VercelRequest, VercelResponse } from '@vercel/node';
+import type { NextApiRequest, NextApiResponse } from 'next';
 import { createClient } from '@supabase/supabase-js';
 import OpenAI from 'openai';
 
@@ -10,7 +10,7 @@ const supabase = createClient(
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY! });
 
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   console.log("✅ API /generate-idea hit");
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Méthode non autorisée" });
