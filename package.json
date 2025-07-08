@@ -14,7 +14,6 @@
     "openai": "^5.8.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "typescript": "^5.8.3",
-    "@vercel/node": "^1.16.4"
+    "typescript": "^5.8.3"
   }
 }
