@@ -23,16 +23,15 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   const { data: videos, error } = await supabase
     .from('ideo_feed')
-    .select('title, channel')
+    .select('title') // 🔁 Ne sélectionne que "title"
     .eq('user_id', userId)
-    .order('views', { ascending: false })
-    .limit(25);
+    .limit(25); // ⛔️ Enlève l'ordre sur "views" pour éviter tout crash
 
   if (error || !videos || videos.length === 0) {
     return res.status(500).json({ error: "Impossible de récupérer les vidéos.", debug: { userId, videos, supabaseError: error } });
   }
 
-  const formattedList = videos.map(v => `- ${v.title} (${v.channel})`).join("\n");
+  const formattedList = videos.map(v => `- ${v.title}`).join("\n");
 
   const prompt = (
     `
