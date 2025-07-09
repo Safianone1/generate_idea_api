@@ -70,10 +70,7 @@ Ta mission :
 4. Ton titre doit donner très envie de cliquer, comme une mini histoire, parlée à l’oral.
 
 Ton titre doit être :
-- court
-- percutant
 - personnel ou narratif si pertinent (ex : "J’ai…", "Ce système…", "Cet outil IA…", "Comment j’ai…")
-- avec un effet de curiosité, transformation ou promesse
 
 N’utilise jamais ces expressions :
 - "Découvrez..."
@@ -101,7 +98,7 @@ Structure à privilégier :
 Pas de résumé, pas de mélange de toutes les idées.
 Juste un seul titre YouTube puissant, bien formulé pour un public francophone.
 
-Génère maintenant un nouveau titre adapté, aussi naturel et viral que ces exemples. Juste le titre.
+Génère maintenant un nouveau titre adapté, aussi naturel que ces exemples. Juste le titre.
 
     `
   ).trim();
