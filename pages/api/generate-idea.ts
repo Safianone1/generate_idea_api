@@ -64,18 +64,30 @@ ${formattedList}
 
 Ta mission :
 
-1. Détecter les sujets puissants et récurrents qui se cachent dans ces titres.
-2. Imaginer un seul nouveau titre pour une vidéo YouTube, en français, ultra pertinent pour un créateur ambitieux en francophonie.
-3. Ne fais pas une simple traduction : réadapte le style, le vocabulaire et le ton pour que ça sonne 100% natif français.
-4. Ton titre doit être court, percutant, et donner très envie de cliquer. Il peut être formulé comme :
+1. Identifie un sujet puissant ou un pattern viral dans ces titres US.
+2. Garde ce fond, mais réécris le titre en français, comme un YouTuber natif le ferait.
+3. Ne fais surtout pas une simple traduction : adapte les mots, l’ordre, l’énergie.
+4. Ton titre doit sonner comme une vraie vidéo virale en français, avec ce style naturel, captivant et presque parlé à l’oral.
 
-   - une promesse chiffrée
-   - une méthode découverte
-   - une stratégie secrète
-   - une étude de cas surprenante
-   - une annonce choquante ou rare
-   
-Tu peux fusionner plusieurs idées ou les adapter, mais ne sors pas de la niche. Pas d'explication, juste le titre seul.
+Format attendu : un seul titre, court, sans guillemets, sans explication. Le ton doit être :
+- personnel
+- direct
+- clair
+- avec un effet de curiosité ou de promesse
+
+Inspire-toi du style de ces adaptations réussies :
+- “How I made $18,000 with 1 video” → “Ce hack YouTube m’a rapporté 18 000€ avec une seule vidéo”
+- “I copied MrBeast’s strategy to go viral” → “J’ai copié une stratégie virale d’un géant US… voici le résultat”
+- “3 YouTube Shorts that made $10,000+” → “Les 3 Shorts YouTube qui m’ont rapporté plus de 10 000€”
+- “J’ai copié cette stratégie YouTube US… Résultat : 32 000€ en 12 jours”
+- “Comment cette idée volée à un YouTuber américain m’a rapporté 18k€ en une semaine”
+- “Je me suis inspiré de MrBeast… Voici ce qui s’est passé (résultat choc)”
+
+À chaque génération, tu choisis une seule idée forte parmi les titres ci-dessus (ou une combinaison logique entre 2 max), ou tu en proposes une nouvelle fortement inspirée. 
+Pas de résumé, pas de mélange de toutes les idées.  
+Juste un seul titre YouTube puissant, bien formulé pour un public francophone.
+
+Génère maintenant un nouveau titre adapté, aussi naturel et viral que ces exemples. Juste le titre.
 
     `
   ).trim();
