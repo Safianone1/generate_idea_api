@@ -30,6 +30,20 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     return res.status(401).json({ error: "Utilisateur non authentifié." });
   }
 
+  // 🔒 Vérification de la limite journalière
+  const { count, error: countError } = await supabase
+    .from("idea_usage")
+    .select("*", { count: "exact", head: true })
+    .eq("user_id", userId)
+    .gte("timestamp", new Date(new Date().setHours(0, 0, 0, 0)).toISOString());
+
+  if (countError) {
+    return res.status(500).json({ error: "Erreur lors de la vérification du quota." });
+  }
+  if ((count ?? 0) >= 20) {
+    return res.status(429).json({ error: "Limite quotidienne atteinte (20 idées max / jour)." });
+  }
+    
   const { data: videos, error } = await supabase
     .from('ideo_feed')
     .select('title') // 🔁 Ne sélectionne que "title"
@@ -69,6 +83,12 @@ Ta réponse doit être courte : uniquement le titre proposé, sans explication.
     });
 
     const idea = completion.choices[0].message.content;
+
+    // ✅ Log de l'usage pour cette requête
+    await supabase.from("idea_usage").insert({
+      user_id: userId,
+    });
+    
     return res.status(200).json({ idea });
   } catch (err) {
     return res.status(500).json({ error: "Erreur lors de la génération." });
