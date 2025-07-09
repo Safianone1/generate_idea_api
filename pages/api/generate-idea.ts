@@ -79,7 +79,7 @@ Ta réponse doit être courte : uniquement le titre proposé, sans explication.
         { role: "system", content: "Tu es un expert YouTube très concis et percutant." },
         { role: "user", content: prompt },
       ],
-      model: "gpt-4o",
+      model: "gpt-4-turbo",
     });
 
     const idea = completion.choices[0].message.content;
