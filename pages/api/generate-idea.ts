@@ -58,18 +58,25 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   const prompt = (
     `
-Tu es un expert en stratégie YouTube. Voici des titres de vidéos qui ont bien fonctionné récemment :
+Tu es un expert en stratégie YouTube. Voici des titres de vidéos qui ont très bien marché récemment aux États-Unis dans des niches proches :
 
 ${formattedList}
 
-Ta mission est de proposer UN SEUL sujet de vidéo, en français, ultra pertinent pour un YouTuber français. Ce sujet peut être :
+Ta mission :
 
-- Une reprise intelligente d’un de ces titres
-- Une fusion de plusieurs
-- Une adaptation au marché français
-- Ou une petite variation qui a de grandes chances de percer
+1. Détecter les sujets puissants et récurrents qui se cachent dans ces titres.
+2. Imaginer un seul nouveau titre pour une vidéo YouTube, en français, ultra pertinent pour un créateur ambitieux en francophonie.
+3. Ne fais pas une simple traduction : réadapte le style, le vocabulaire et le ton pour que ça sonne 100% natif français.
+4. Ton titre doit être court, percutant, et donner très envie de cliquer. Il peut être formulé comme :
 
-Ta réponse doit être courte : uniquement le titre proposé, sans explication.
+   - une promesse chiffrée
+   - une méthode découverte
+   - une stratégie secrète
+   - une étude de cas surprenante
+   - une annonce choquante ou rare
+   
+Tu peux fusionner plusieurs idées ou les adapter, mais ne sors pas de la niche. Pas d'explication, juste le titre seul.
+
     `
   ).trim();
 
