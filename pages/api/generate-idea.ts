@@ -12,6 +12,15 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY! });
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   console.log("✅ API /generate-idea hit");
+  
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type, x-user-id");
+
+  if (req.method === "OPTIONS") {
+    return res.status(200).end();
+  }
+  
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Méthode non autorisée" });
   }
