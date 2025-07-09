@@ -64,18 +64,28 @@ ${formattedList}
 
 Ta mission :
 
-1. Identifie un sujet puissant ou un pattern viral dans ces titres US.
-2. Garde ce fond, mais réécris le titre en français, comme un YouTuber natif le ferait.
+1. Identifie un sujet puissant ou un pattern viral dans ces titres US (n'importe lequel, ça peut être un de ceux au début, milieu ou fin de la liste, vraiment de façon aléatoire).
+2. Garde ce fond, mais réécris le titre en français, comme un YouTuber natif le ferait : naturel, personnel, captivant.
 3. Ne fais surtout pas une simple traduction : adapte les mots, l’ordre, l’énergie.
-4. Ton titre doit sonner comme une vraie vidéo virale en français, avec ce style naturel, captivant et presque parlé à l’oral.
+4. Ton titre doit donner très envie de cliquer, comme une mini histoire, parlée à l’oral.
 
-Format attendu : un seul titre, court, sans guillemets, sans explication. Le ton doit être :
-- personnel
-- direct
-- clair
-- avec un effet de curiosité ou de promesse
+Ton titre doit être :
+- court
+- percutant
+- personnel ou narratif si pertinent (ex : "J’ai…", "Ce système…", "Cet outil IA…", "Comment j’ai…")
+- avec un effet de curiosité, transformation ou promesse
 
-Inspire-toi du style de ces adaptations réussies :
+N’utilise jamais ces expressions :
+- "Découvrez..."
+- "Voici comment..."
+- "Méthode infaillible"
+- "Découvrez comment..."
+Ces phrases sonnent comme du tunnel de vente, pas comme du contenu YouTube natif.
+
+Tu peux t'nspirer du style de ces adaptations réussies :
+- “J'ai lancé & vendu un produit en 8h (et j'ai tout documenté)”
+- “Comment j'envoie +2500 dm/jour en autopilote (€€€)”
+- “Cet agent IA envoie +2500 messages par jour à ma place”
 - “How I made $18,000 with 1 video” → “Ce hack YouTube m’a rapporté 18 000€ avec une seule vidéo”
 - “I copied MrBeast’s strategy to go viral” → “J’ai copié une stratégie virale d’un géant US… voici le résultat”
 - “3 YouTube Shorts that made $10,000+” → “Les 3 Shorts YouTube qui m’ont rapporté plus de 10 000€”
@@ -83,8 +93,12 @@ Inspire-toi du style de ces adaptations réussies :
 - “Comment cette idée volée à un YouTuber américain m’a rapporté 18k€ en une semaine”
 - “Je me suis inspiré de MrBeast… Voici ce qui s’est passé (résultat choc)”
 
-À chaque génération, tu choisis une seule idée forte parmi les titres ci-dessus (ou une combinaison logique entre 2 max), ou tu en proposes une nouvelle fortement inspirée. 
-Pas de résumé, pas de mélange de toutes les idées.  
+Structure à privilégier :
+- Un titre qui donne envie d’en savoir plus, comme une promesse ou un début de témoignage.
+- Si possible, ajoute un élément narratif ou personnalisé : qui parle d’un “je”, “cet outil”, “cette méthode”, “voici ce qui s’est passé”…
+
+À chaque génération, tu choisis une seule idée forte, tirée d’un titre vraiment aléatoire de la liste ci-dessus (ou une combinaison logique entre 2 max), ou tu en proposes une nouvelle fortement inspirée. 
+Pas de résumé, pas de mélange de toutes les idées.
 Juste un seul titre YouTube puissant, bien formulé pour un public francophone.
 
 Génère maintenant un nouveau titre adapté, aussi naturel et viral que ces exemples. Juste le titre.
